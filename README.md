@@ -1,22 +1,33 @@
+# ⚙️ Py-Automation Tools
 
-# 🦅 Py-Automation-Tools
+An enterprise-grade collection of Python automation scripts designed to optimize workflows, media extraction, and system management. Built with Object-Oriented Programming (OOP) principles, clean architecture, and native system integration.
 
-A personal collection of Python scripts designed to automate daily tasks on Linux/Windows.
-*Focused on efficiency and lightweight execution.*
+---
 
-## 📂 Current Tools
+## 🛠️ The Toolkit
 
-### 1. YouTube Video Downloader (`bajar_video.py`)
-A CLI (Command Line Interface) tool to download videos in best quality without ads or web trackers.
+### 1. 📂 Smart Workspace Organizer (`organizer.py`)
+A tool that autonomously scans, categorizes, and cleanly files away cluttered directories using native `pathlib` integration and safe I/O operations.
 
-**Features:**
-- 🚀 Uses `yt-dlp` for reliable extraction.
-- 🛡️ Privacy-focused (no 3rd party websites).
-- ⚡ Lightweight logic.
+### 2. 🦅 Enterprise Media Extractor (`extractor.py`)
+A robust media downloading engine using `yt-dlp`. It utilizes a Strategy Pattern to dynamically switch between high-fidelity video extraction and pure audio extraction.
 
-## 🛠️ Installation & Usage
+## 📥 Deployment
+Requires standard Python 3. 
+*(Note: `extractor.py` requires `yt-dlp` and `ffmpeg` installed on your system).*
 
-1. Clone the repo or download the script.
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+```bash
+# Clone the repository
+git clone [https://github.com/ortiz10m/Py-Automation-Tools.git](https://github.com/ortiz10m/Py-Automation-Tools.git)
+cd Py-Automation-Tools
+
+# Run the Organizer
+python3 organizer.py
+
+# Run the Media Extractor
+python3 extractor.py
+
+🤝 Support & Connect
+Great systems are built by automating the mundane to focus on the complex. If you found this toolkit useful, consider giving this repository a ⭐!
+
+🎥 Follow the journey: For deep dives into system architecture, clean code, and the stoic mindset required to build great things, join the community on my YouTube channel: DavOS. Let's build efficiently.
